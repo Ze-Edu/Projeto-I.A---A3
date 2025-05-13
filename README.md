@@ -32,31 +32,15 @@ O robô inicia no canto superior esquerdo (P) e deve chegar ao canto inferior di
 
 
 🚀 Como Executar
+
 ✅ Pré-requisitos:
-Java JDK 8 ou superior
 
-IDE ou terminal para compilar/executar (ex: NetBeans, Eclipse, VS Code)
+- Java JDK 8 ou superior
 
-✅ Passos:
-Clone o repositório:
+- IDE ou terminal para compilar/executar (ex: NetBeans, Eclipse, VS Code)
 
-bash
-Copiar
-Editar
-git clone https://github.com/seu-usuario/labirinto-ia.git
-Compile o código:
-
-bash
-Copiar
-Editar
-javac LabirintoIA.java
-Execute:
-
-bash
-Copiar
-Editar
-java LabirintoIA
 🧮 Lógica da Solução
+
 O labirinto é uma matriz 10x10 preenchida com espaços livres.
 
 São adicionados aleatoriamente:
