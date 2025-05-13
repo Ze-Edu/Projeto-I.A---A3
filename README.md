@@ -5,6 +5,7 @@ Este projeto é uma simulação de um robô inteligente que deve encontrar o cam
 O robô inicia no canto superior esquerdo (P) e deve chegar ao canto inferior direito (C), evitando obstáculos e coletando energia ao longo do caminho.
 
 🛠️ Funcionalidades
+
 ✅ Geração aleatória do labirinto (10x10)
 ✅ Posicionamento aleatório de obstáculos e pontos de energia
 ✅ Busca inteligente (BFS) para encontrar o caminho viável
@@ -14,14 +15,21 @@ O robô inicia no canto superior esquerdo (P) e deve chegar ao canto inferior di
 ✅ Mensagens de sucesso ou fracasso
 
 🧩 Regras do Jogo
-Símbolo	Descrição
-.	Espaço livre
-#	Obstáculo (bloqueia passagem)
-5	Recarrega +5 de energia
-T	Recarrega +10 de energia
-P	Ponto de partida do robô
-C	Chegada (destino final)
-*	Caminho percorrido pelo robô
+
+[.]	Espaço livre
+
+[#]	Obstáculo (bloqueia passagem)
+
+[5]	Recarrega +5 de energia
+
+[T]	Recarrega +10 de energia
+
+[P]	Ponto de partida do robô
+
+[C]	Chegada (destino final)
+
+[*]	Caminho percorrido pelo robô
+
 
 🚀 Como Executar
 ✅ Pré-requisitos:
@@ -68,35 +76,12 @@ O algoritmo de busca em largura (BFS) explora todas as rotas possíveis até enc
 O caminho encontrado é marcado com * no labirinto final.
 
 📊 Exemplo de Saída
-r
-Copiar
-Editar
-Labirinto criado:
-P . . . # . . 5 . . 
-. # . . . . . # T . 
-. . . . . # . . . . 
-. # . # # # # . . . 
-. . . . . . . . . 5 
-. . . . # . . . . . 
-. . . . . . 5 . . . 
-. . # # . # . . . . 
-. . . . . . . . . . 
-. . . . . T . . . C 
 
-Iniciando...
+![image](https://github.com/user-attachments/assets/6e305eb7-ae7c-4e1a-9e5c-ba06645a0623)
 
-P * * * # . . 5 . . 
-. # . . . . . # T . 
-. . . . . # . . . . 
-. # . # # # # . . . 
-. . . . . . . . . 5 
-. . . . # . . . . . 
-. . . . . . 5 . . . 
-. . # # . # . . . . 
-. . . . . . . . . . 
-. . . . . T . . . C 
 
-Caminho encontrado! Energia restante: 18
+Caminho encontrado! Energia restante: 42
+
 ⚠️ Limitações e Melhorias Futuras
 🚧 Labirinto fixo em 10x10 (pode ser parametrizado)
 
