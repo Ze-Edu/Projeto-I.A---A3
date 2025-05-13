@@ -1,5 +1,9 @@
 🧠 Labirinto IA - Em Java
 
+
+https://github.com/user-attachments/assets/dcddad72-6e9c-4473-8f66-07c8f4095f9e
+
+
 📋 Descrição
 
 Este projeto é uma simulação de um robô inteligente que deve encontrar o caminho de saída em um labirinto, gerenciando sua energia para não "morrer" no processo. O programa foi desenvolvido em Java e utiliza uma busca em largura (BFS) para explorar o labirinto, considerando obstáculos, pontos de recarga de energia e restrições de movimento.
